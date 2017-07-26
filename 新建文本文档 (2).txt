@@ -1,0 +1,9 @@
+ChatMsgBean{msgId='21522318', msgKey='20150464201707211300533135', tid=0, chatUserId=20226833, chatMeId=20150464, sendtime='2017-07-21 13:00:53', type=2, chatContent='1555', h5Message='null', contentType=0, url='null', faceUrl='8dogoii626hrtlnf92iml7nu741494485044325747532', nickName='呼呼', status=0, houseId='22303264', ownerId='20226833', bidword='null', isFile=false, compareTime=1500613253000, data1='null', data2='null', data3='null', isMe=true}
+
+
+
+
+
+
+如果消息列表中messageKey 一家存在了则不再发了。
+
