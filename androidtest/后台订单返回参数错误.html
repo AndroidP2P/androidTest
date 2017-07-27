@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie6 oldie" lang="zh"><![endif]-->
+<!--[if IE 7]><html class="ie7 oldie" lang="zh"><![endif]-->
+<!--[if IE 8]><html class="ie8 oldie" lang="zh"><![endif]-->
+<!--[if gt IE 8]><html><![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<title>注册-360个人中心</title>
+
+    
+<meta name="Keywords" content="360个人中心">
+<meta name="Description" content="360个人中心">
+<meta property="qc:admins" content="155766667260636">
+<!--公共的样式-->
+
+
+<link rel="stylesheet" href="/static/css/import/base.css?v=e9a5a.css"><!--页面自定义样式-->
+
+
+<link rel="stylesheet" href="/static/css/modules/uc-reg.css?v=ede72.css">
+
+</head>
+<body>
+
+<div id="doc">
+
+<div class="reg-page">
+<div id="regHeader">
+<div class="header-content">
+<span class="switch-login">
+<a href="#" title="登录" target="_blank">登录</a>
+</span>
+<a href="#" title="">
+<span class="logo"></span>
+</a>
+<span class="page-title">
+<a href="#" title="注册帐号">注册帐号</a>
+</span>
+</div>
+
+</div>
+<div class="reg-content">
+<div id="regWrap">
+<div class="reg-title">
+注册360帐号
+			</div>
+<div class="quc-sign-up-wrapper"></div>
+</div>
+</div>
+<div class="reg-succeed">
+<div id="regWrap" style="display:block;">
+<div class="reg-succeed-title">
+注册成功
+			</div>
+<div class="quc-sign-up-succeed">
+<p><span class="reg-succeed-icon"></span></p>
+<p>恭喜！您已完成360帐号注册</p>
+<p>您可以用该帐号登录<a href="http://www.360.com" class="link" target="_blank">360旗下所有产品</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="other-info">
+<span class="gray-line">
+<a href="http://i.360.cn/findpwd/customerhelper" title="帮助中心" target="_blank">帮助中心</a>
+</span>
+<span>
+<a href="http://i.360.cn/complaint" title="立即申诉" target="_blank">立即申诉</a>
+</span>
+</div>
+
+<div id="ft">Copyright?2005-<span id="currentYear">2015</span> 360.CN All Rights Reserved 360安全中心
+		<p><a target="_blank" href="http://www.miibeian.gov.cn">京ICP证080047号[京ICP备08010314号-6] </a></p>
+<p>
+<a style="color:#999;" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000006" target="_blank">
+<img class="wangan" src="/static/img/wangan-icon.png?v=d0289.png">京公网安备 11000002000006号</a>
+</p>
+</div>
+
+
+
+</div>
+<!--公共需要的全局变量-->
+
+<script type="text/javascript">window.QHDomain = {'i360':'http://i.360.cn','login_http':'http://login.360.cn','login_https':'https://login.360.cn','js_login':'http://js.login.360.cn','1360':'http://www.1360.com','qihoo':'http://www.qihoo.com','so':'http://www.so.com','woxihuan':'http://www.woxihuan.com','yunpan':'http://yunpan.360.cn','help':'http://help.360.cn','baike':'http://baike.360.cn','rdLoginUrl':{"qihoo":"http:\/\/login.qihoo.com","woxihuan":"http:\/\/login.woxihuan.com","1360":"http:\/\/login.1360.com","so":"http:\/\/login.so.com","360pay":"http:\/\/login.360pay.cn","leidian":"http:\/\/login.leidian.com","qikoo":"http:\/\/login.qikoo.com"},'captcha':'http://i.360.cn/reg/dogetcap?i360','jifen':'http://jifen.360.cn','src':'pcw_i360','srcRoot': 'i360'};window.QHUserInfo = {'loginStatus' : '1',/*****1为登录，0为未登录*******/'figure' : 'formal','qid' : '398733664','userName' : '千域千千寻','nickName' : '千域千千寻','loginEmail' : '1*****4@qq.com'};window.quc_lang = '';window.qCrumb = "f27a7d";</script><!--[if IE 6]> <script src="/static/js/modules/DD_belatedPNG.js?v=ebd8f.js" ></script> <script>DD_belatedPNG.fix('a,div,.logo span,.logo,.reg-fail-icon,.wangan,.quc-twocode-icon,.findpwd-fail-icon');</script> <![endif]--><!--公共的js-->
+
+<script type="text/javascript" src="/static/js/base/jquery-1.9.1.min.js?v=76d1f.js" ></script>
+<script type="text/javascript" src="/static/js/import/5.0.3.js?v=2ea5f.js" ></script>
+<script type="text/javascript" src="/static/js/import/base.js?v=81741.js" ></script>
+<script type="text/javascript">$(function() {
+	var protocol = location.protocol.slice(0,-1);
+	QHPass.init('pcw_i360');
+	QHPass.DEBUG = false;
+
+	QHPass.setConfig('domainList', ["360pay.cn","so.com", "360.cn", "360.com"]);
+
+	QUCi360.utils.addRandomParam();
+	$('.sign-out').on('click', function() {
+		QHPass.signOut(protocol + "://i.360.cn");
+	});
+
+	/**统计****/
+	monitor.setProject('360passport').getTrack().getClickAndKeydown();
+});</script>
+
+<script type="text/javascript" src="/static/js/modules/uc_reg.js?v=4887f.js" ></script>
+<script type="text/javascript">$(function() {
+	var src = 'pcw_i360';
+	var destUrl = 'http://i.360.cn';
+	$("#doc").css('background', '#f5f5f5');
+	var $wrapper = $('.quc-sign-up-wrapper');
+	QHPass.setConfig('src', src);
+	QHPass.setConfig('signUp.hideNickname', true);
+	QHPass.setConfig('signUp.hideUsername', true);
+	QHPass.events.on('afterShow.*', function(e, el) {
+		$(el).find(".quc-input-mobile").focus();
+		$(el).find('.quc-left-bar').remove();
+		$(el).find('.quc-login').hide();
+	});
+
+	var regType = QUCi360.utils.getParams().regtype;
+	if(regType == "email") {
+		$('.mobile-sign-up').removeClass('cur');
+		$('.email-sign-up').addClass('cur');
+		QHPass.setConfig('signUp.types', ['email', 'mobile']);
+	}
+	QHPass.signUp($wrapper, function() {
+		$(".reg-content").hide();
+		$(".reg-succeed").show();
+		setTimeout(function(){
+			location.href = destUrl;
+		},5000);
+		
+	});
+	/*QHPass.events.on('changeType.signUp', function(e, type) {
+	    switch(type) {
+	        case 'email':
+	            $('#quc-bd').removeClass('reg-wrapper2').addClass('reg-wrapper1');
+	            break;
+	        case 'mobile':
+	            $('#quc-bd').removeClass('reg-wrapper1').addClass('reg-wrapper2');
+	            break;
+	    }
+	});
+
+	$('.email-sign-up').on('click', function(e) {
+		e.preventDefault();
+		$('.mobile-sign-up').removeClass('cur');
+		$(this).addClass('cur');
+		QHPass.ui.signUp.changeType('email');
+	});
+
+	$('.mobile-sign-up').on('click', function(e) {
+		e.preventDefault();
+		$('.email-sign-up').removeClass('cur');
+		$(this).addClass('cur');
+		QHPass.ui.signUp.changeType('mobile');
+	});*/
+
+	$('.page-title').find('a').on('click', function(e) {
+		e.preventDefault();
+		location.reload();
+	});
+	$('.switch-login').find('a').attr("href",QHDomain.i360+"/login?src="+src+"&destUrl="+encodeURIComponent(destUrl));
+	$(".logo").parent().attr("href",QHDomain.i360+"/reg?src="+src+"&destUrl="+encodeURIComponent(destUrl));
+});</script>
+
+</body>
+</html>
+<!--
+<br>	9c2bf5e14aa94e2e	==	page_load
+<br>	9c2bf5e14aa94e2e	==	page_load:0.111
+-->
