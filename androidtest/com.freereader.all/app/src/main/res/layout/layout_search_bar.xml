@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTransparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/manbu_search_bar"
+            android:layout_weight="1"
+            android:background="@drawable/app_ui_search_bar_shape"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageButton
+                android:id="@+id/search_icon"
+                android:layout_width="@dimen/manbu_search_icon_width"
+                android:layout_height="@dimen/manbu_search_icon_height"
+                android:layout_gravity="center"
+                android:background="@mipmap/ic_find_search" />
+
+            <EditText
+                android:id="@+id/search_content"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/colorTransparent"
+                android:layout_weight="0"
+                android:hint="@string/finding_expert"
+                android:maxLength="15"
+                android:textCursorDrawable="@drawable/app_ui_cursor"
+                android:visibility="visible"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:textSize="@dimen/manbu_default_textsize" />
+
+            <ImageButton
+                android:id="@+id/search_cancel_icon"
+                android:layout_width="@dimen/manbu_search_icon_width"
+                android:layout_height="@dimen/manbu_search_icon_height"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+                android:background="@drawable/mbrs_del_selector" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/do_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/mbrs_search_selector"
+            android:text="搜索"
+            android:textColor="@color/manbuDefaultTextColor"
+            android:textSize="@dimen/manbu_default_textsize_middle" />
+    </LinearLayout>
+
+</RelativeLayout>

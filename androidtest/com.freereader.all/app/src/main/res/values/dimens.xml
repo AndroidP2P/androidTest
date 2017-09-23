@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    //manbuBasicInfo
+    <dimen name="manBuItemHeight">50dp</dimen>
+    <dimen name="manbuSearchBarHeight">30dp</dimen>
+    <dimen name="manbu_default_textsize">13sp</dimen>
+    <dimen name="manbu_default_textsize_middle">15sp</dimen>
+    <dimen name="manbu_default_textsize_large">18sp</dimen>
+
+    <!--app drawable param -->
+    <dimen name="app_ui_button_radius">2dp</dimen>
+    <dimen name="app_ui_base_frame_border">1dp</dimen>
+    //EditText height
+    <dimen name="app_edittext_height">40dp</dimen>
+    //contact params
+    <dimen name="contact_layout_item_image_height">40dp</dimen>
+    //button height
+    <dimen name="app_button_height">40dp</dimen>
+
+    // manbuActionBarLayout
+    <dimen name="manbuActionBarHeight">45dp</dimen>
+    <dimen name="manbu_actionbartitlesize">16sp</dimen>
+    <dimen name="manbu_actionbarNetStateLayoutPadding">3dp</dimen>
+    <dimen name="manbu_actionbarNetStateTextSize">12sp</dimen>
+    <dimen name="manbu_actionbarLoadingLayoutHeight">150dp</dimen>
+
+    //manbuBottomBar params
+    <dimen name="manbu_bottommenu_item_width">25dp</dimen>
+    <dimen name="manbu_bottommenu_item_height">25dp</dimen>
+    <dimen name="manbu_bottommenu_item_textsize">10sp</dimen>
+
+    //manbuMoreFragmentParams
+    <dimen name="manbu_more_iconsize">20dp</dimen>
+    <dimen name="manbu_more_textsize">14sp</dimen>
+    <dimen name="basicinfo_photolayout_height">60dp</dimen>
+
+    <!-- appSearch bar Params-->
+    <dimen name="manbu_search_bar">35dp</dimen>
+    <dimen name="manbu_search_icon_height">25dp</dimen>
+    <dimen name="manbu_search_icon_width">25dp</dimen>
+    <dimen name="manbu_search_cancle_width">25dp</dimen>
+    <dimen name="manbu_search_cancle_height">25dp</dimen>
+    // manbuActionBarLayout
+    <dimen name="manbu_topbar_right_icon_width_height">25dp</dimen>
+    <dimen name="manbu_topbar_right_margin">10dp</dimen>
+
+
+</resources>

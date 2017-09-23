@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- mbrsBaseDesignColor -->
+
+    <color name="manbuDefaultPgaeBackGroundColor">#E3E3E3</color>
+    <color name="manbu_actionbarbgColor">@color/app_frame_color</color>
+    <color name="manbu_netstateloseBgColor">#F3E17E</color>
+    <color name="manbuDefaultTextColor">#004d40</color>
+    <color name="app_frame_color">#38CBCB</color>
+    <color name="app_divider_color">#b8b8b8</color>
+    <color name="loading_dialog_backcolor">#525252</color>
+    <color name="app_toast_bgcolor">@color/loading_dialog_backcolor</color>
+
+    <color name="White">#FFFFFFFF</color>
+    <color name="gray">#8c8c8c</color>
+    <color name="little_gray">#998c8c8c</color>
+    <color name="black">#f000</color>
+    <color name="default_font_categary_color">#354984</color>
+    <color name="manbu_halfTransparent">#E0000000</color>
+    <color name="colorTransparent">#00000000</color>
+
+</resources>

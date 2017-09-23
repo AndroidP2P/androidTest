@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/baseContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/app_netstatelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/manbu_netstateloseBgColor"
+            android:padding="@dimen/manbu_actionbarNetStateLayoutPadding"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/app_netStateTittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="3dp"
+                android:text="@string/manbu_netStateTittle"
+                android:textColor="@color/manbuDefaultTextColor"
+                android:textSize="@dimen/manbu_actionbarNetStateTextSize" />
+        </RelativeLayout>
+        <!-- loading animation -->
+        <RelativeLayout
+            android:id="@+id/loadingContentLayout"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/loadingAnimationImg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/app_loading_frame_anim" />
+
+            <!-- loading loading title -->
+            <TextView
+                android:id="@+id/loadingInfoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loadingAnimationImg"
+                android:layout_centerHorizontal="true"
+                android:paddingBottom="30dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="加载中..."
+                android:textColor="@color/manbuDefaultTextColor"
+                android:textSize="13sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@+id/app_activity_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/baseContentLayout"
+        />
+
+</RelativeLayout>

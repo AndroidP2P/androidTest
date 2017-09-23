@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+    <Button
+        android:id="@+id/camera_camera"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/manBuItemHeight"
+        android:background="@drawable/app_ui_listview_item"
+        android:text="@string/selectfromcamera"
+        android:textColor="@color/manbuDefaultTextColor"
+        android:textSize="@dimen/manbu_default_textsize_large" />
+
+    <Button
+        android:id="@+id/camera_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/manBuItemHeight"
+        android:layout_below="@id/camera_camera"
+        android:background="@drawable/app_ui_listview_item"
+        android:text="@string/selectphotofromalbum"
+        android:textColor="@color/manbuDefaultTextColor"
+        android:textSize="@dimen/manbu_default_textsize_large" />
+
+    <Button
+        android:id="@+id/camera_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/manBuItemHeight"
+        android:layout_below="@id/camera_phone"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/app_ui_button_press"
+        android:text="@string/manbu_cancellogout"
+        android:textColor="@color/manbuDefaultTextColor"
+        android:textSize="@dimen/manbu_default_textsize_large" />
+
+</RelativeLayout>

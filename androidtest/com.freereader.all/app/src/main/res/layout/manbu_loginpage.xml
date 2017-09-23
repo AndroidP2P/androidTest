@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginRootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/startimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/ic_start_page"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:id="@+id/ManBu_WelcomePageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="30dp"
+        android:paddingRight="10dp"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/manbu_loginEditLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.9"
+            android:background="@drawable/doctor_login_operationlayout">
+
+            <RelativeLayout
+                android:id="@+id/manbu_LoginlayoutPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/manbuActionBarHeight">
+
+                <ImageButton
+                    android:id="@+id/manbu_userPhoneIcon"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@mipmap/ic_phone_icon" />
+
+                <com.app.frame.ui.eiditview.ClearEditText
+                    android:id="@+id/manbu_login_phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:background="@color/colorTransparent"
+                    android:hint="@string/manbu_edit_phoneNumberHint"
+                    android:inputType="phone"
+                    android:paddingLeft="20dp"
+                    android:maxLength="20"
+                    android:textColor="@color/manbuDefaultTextColor"
+                    android:textSize="@dimen/manbu_default_textsize_middle" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/loginDivider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@id/manbu_LoginlayoutPhoneNumber"
+                android:layout_marginLeft="10dp"
+                android:background="#b8b8b8" />
+
+            <RelativeLayout
+                android:id="@+id/manbu_LoginlayoutPassword"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/app_edittext_height"
+                android:layout_below="@id/loginDivider">
+
+                <com.app.frame.ui.eiditview.ClearEditText
+                    android:id="@+id/manbu_login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:background="@null"
+                    android:hint="@string/manbu_edit_userPassword"
+                    android:inputType="textPassword"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/manbuDefaultTextColor"
+                    android:textSize="14sp" />
+
+                <ImageButton
+                    android:id="@+id/manbu_userPhoneLoginIcon"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:background="@mipmap/ic_pass_icon" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/user_OperateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/manbu_loginEditLayout"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/app_button_height"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:background="@drawable/app_ui_button"
+                android:text="登录"
+                android:textSize="@dimen/manbu_default_textsize"
+                android:textColor="@color/manbuDefaultTextColor" />
+
+            <TextView
+                android:id="@+id/changePasswordTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/login"
+                android:layout_below="@id/login"
+                android:layout_marginTop="5dp"
+                android:text="忘记密码？"
+                android:textColor="#7D7A78"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/protocalTextTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/login"
+                android:layout_below="@id/login"
+                android:layout_marginTop="5dp"
+                android:textColor="#7D7A78"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_button_height"
+            android:layout_below="@id/user_OperateLayout"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/app_ui_button"
+            android:textSize="@dimen/manbu_default_textsize"
+            android:text="注册"
+            android:textColor="@color/manbuDefaultTextColor" />
+    </RelativeLayout>
+
+</RelativeLayout>

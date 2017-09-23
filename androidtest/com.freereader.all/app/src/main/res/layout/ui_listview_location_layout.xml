@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/quickLocListview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null" />
+
+        <TextView
+            android:id="@+id/textSelectDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/app_ui_text_locate_style"
+            android:gravity="center"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:minHeight="80dp"
+            android:visibility="gone"
+            android:minWidth="80dp"
+            android:padding="8dp"
+            android:text="a"
+            android:textColor="@color/White"
+            android:textSize="50sp" />
+
+        <com.app.frame.ui.speceffect.QuickLocation.SideBar
+            android:id="@+id/sideQuickBar"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- search bar param -->
+    <dimen name="manbu_search_bar_height">35dp</dimen>
+    <dimen name="manbu_search_icon_width">20dp</dimen>
+    <dimen name="manbu_search_icon_height">20dp</dimen>
+    <!-- manburs doctor basic params -->
+    <dimen name="manbu_default_textsize">13.01sp</dimen>
+    <dimen name="manbu_default_textsize_middle">15sp</dimen>
+
+    <!-- manburs ui style-->
+    <dimen name="app_ui_divider_hight">0.5dp</dimen>
+
+</resources>

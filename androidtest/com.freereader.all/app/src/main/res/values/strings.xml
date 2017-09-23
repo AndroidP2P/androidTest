@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">免费小说阅读器</string>
+    //manbuBasicParams
+    <string name="action_settings">设置</string>
+    <string name="title_activity_test">测试类</string>
+    <string name="manbu_netStateTittle">有人说，世界上最遥远的距离就是断网。</string>
+    <string name="manbu_clickRefresh">加载中...</string>
+    <string name="loading_waiting">请稍后...</string>
+    <string name="manbu_edit_phoneNumberHint">用户名/手机号码</string>
+    <string name="manbu_actionbar_operateBtnTittle">提交</string>
+    <string name="manbu_user_exist_notice">退出登录，您将无法收到聊天消息？</string>
+    <string name="manbu_loginprogresstitle">正在登录，请稍等...</string>
+    <string name="app_net_state_isback">网络状态不好请链接后重试</string>
+    <string name="manbu_edit_userPassword">请输入密码</string>
+    <string name="manbu_actionbar_title">文字标题</string>
+    <string name="manbu_logout">退出</string>
+    <string name="manbu_login">登录</string>
+    <string name="usrBasicInfoReview">预览</string>
+    <string name="selectphotofromalbum">从相册中选择</string>
+    <string name="selectfromcamera">直接拍照上传</string>
+    <string name="manbu_register">注册</string>
+    <string name="manbu_save_title">保存</string>
+    <string name="app_get_Verify_code">获取验证码</string>
+    <string name="manbu_cancellogout">取消</string>
+    <string name="manbu_default_search_content">请输入搜索内容</string>
+    <string name="manbuMoreFragmentUserSex">性别 </string>
+    <string name="permission_get_accounts_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_GET_ACCOUNTS</string>
+    <string name="permission_read_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_PHONE_STATE</string>
+    <string name="permission_call_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CALL_PHONE</string>
+    <string name="permission_camera_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CAMERA</string>
+    <string name="permission_access_fine_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_FINE_LOCATION</string>
+    <string name="permission_access_coarse_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_COARSE_LOCATION</string>
+    <string name="permission_read_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_EXTERNAL_STORAGE</string>
+    <string name="permission_white_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_recode_audio_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_RECORD_AUDIO</string>
+    <string-array name="permissions">
+        <item>@string/permission_recode_audio_hint</item>
+        <item>@string/permission_get_accounts_hint</item>
+        <item>@string/permission_read_phone_hint</item>
+        <item>@string/permission_call_phone_hint</item>
+        <item>@string/permission_camera_hint</item>
+        <item>@string/permission_access_fine_location_hint</item>
+        <item>@string/permission_access_coarse_location_hint</item>
+        <item>@string/permission_read_external_hint</item>
+        <item>@string/permission_white_external_hint</item>
+    </string-array>
+
+</resources>

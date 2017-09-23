@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/app_ui_button_radius"></corners>
+    <solid android:color="@color/colorTransparent"></solid>
+    <stroke android:color="@color/app_divider_color" android:width="@dimen/app_ui_base_frame_border"></stroke>
+</shape>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <RelativeLayout
+        android:id="@+id/searchBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/manbuSearchBarHeight"
+        android:layout_margin="10dp"
+        android:background="@drawable/app_searchbar"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/searchBarImageView"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/ic_search_bar_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/searchBarImageView"
+            android:singleLine="true"
+            android:text="@string/manbu_default_search_content"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</RelativeLayout>

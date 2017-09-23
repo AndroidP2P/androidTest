@@ -1,0 +1,26 @@
+<resources>
+    //basic software params
+    <string name="app_name">Running in the life</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="manbu_netStateTittle">because of losing network,so upset always</string>
+    <string name="manbu_clickRefresh">loading...</string>
+    <string name="manbu_actionbar_operateBtnTittle">post</string>
+    <string name="app_net_state_isback">Network state is bad,Try again</string>
+    <string name="loading_waiting">loading...</string>
+    <string name="manbu_edit_phoneNumberHint">UserPhoneNumber</string>
+    <string name="title_activity_man_bu_welcome">ManBuWelcomeActivity</string>
+    <string name="manbu_cancellogout">Cancel</string>
+    <string name="manbu_loginprogresstitle">Waiting for...</string>
+    <string name="manbu_register">Register</string>
+    <string name="manbu_edit_userPassword">Input Password</string>
+    <string name="manbu_login">Login</string>
+    <string name="manbu_logout">Exist</string>
+    <string name="app_get_Verify_code">GetVerifyCode</string>
+    <string name="manbu_save_title">Save</string>
+    <string name="manbu_user_exist_notice">Exist or you stay here</string>
+    <string name="manbu_default_search_content">Input the content of searching</string>
+    <string name="manbu_actionbar_title">Title</string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/manbuDefaultPgaeBackGroundColor">
+
+    <LinearLayout
+        android:id="@+id/mbrs_loglayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/app_layout_click"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/logOutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/manBuItemHeight"
+            android:background="@color/colorTransparent"
+            android:clickable="true"
+            android:text="@string/manbu_logout"
+            android:textColor="@color/manbuDefaultTextColor"
+            android:textSize="@dimen/manbu_more_textsize" />
+
+        <Button
+            android:id="@+id/cancelLogOutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/manBuItemHeight"
+            android:layout_marginTop="0.5dp"
+            android:background="@color/colorTransparent"
+            android:clickable="true"
+            android:text="@string/manbu_cancellogout"
+            android:textColor="@color/manbuDefaultTextColor"
+            android:textSize="@dimen/manbu_more_textsize" />
+
+    </LinearLayout>
+</RelativeLayout>

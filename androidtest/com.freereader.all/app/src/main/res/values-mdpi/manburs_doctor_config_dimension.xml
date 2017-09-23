@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app basic textsize -->
+    <dimen name="manbu_default_textsize">8.67sp</dimen>
+    <dimen name="manbu_default_textsize_middle">8sp</dimen>
+</resources>

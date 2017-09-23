@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransparent">
+
+    <RelativeLayout
+        android:id="@+id/manbu_Tool_ClinicalToollayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/manBuItemHeight"
+        android:background="@drawable/app_layout_click"
+        android:clickable="true"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/bqyjIcon"
+            android:layout_width="@dimen/manbu_more_iconsize"
+            android:layout_height="@dimen/manbu_more_iconsize"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+             />
+
+        <TextView
+            android:id="@+id/bqyjTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/bqyjIcon"
+            android:textColor="@color/manbuDefaultTextColor"
+            android:textSize="@dimen/manbu_more_textsize" />
+
+        <ImageView
+            android:id="@+id/bqyjTime"
+            android:layout_width="@dimen/manbu_more_iconsize"
+            android:layout_height="@dimen/manbu_more_iconsize"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/ic_jump" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/manbu_Tool_MedicalGuidancelayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/manBuItemHeight"
+        android:layout_below="@id/manbu_Tool_ClinicalToollayout"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/app_layout_click"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/bingliIcon"
+            android:layout_width="@dimen/manbu_more_iconsize"
+            android:layout_height="@dimen/manbu_more_iconsize"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+         />
+
+        <TextView
+            android:id="@+id/bingliTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/bingliIcon"
+            android:textColor="@color/manbuDefaultTextColor"
+            android:textSize="@dimen/manbu_more_textsize" />
+
+        <ImageView
+            android:id="@+id/bingliTime"
+            android:layout_width="@dimen/manbu_more_iconsize"
+            android:layout_height="@dimen/manbu_more_iconsize"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/ic_jump" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/manbu_Tool_ClinicalPathlayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/manBuItemHeight"
+        android:layout_below="@id/manbu_Tool_MedicalGuidancelayout"
+        android:layout_marginTop="0.5dp"
+        android:background="@drawable/app_layout_click"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/zhifuIcon"
+            android:layout_width="@dimen/manbu_more_iconsize"
+            android:layout_height="@dimen/manbu_more_iconsize"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/zhifuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/zhifuIcon"
+            android:textColor="@color/manbuDefaultTextColor"
+            android:textSize="@dimen/manbu_more_textsize" />
+
+        <ImageView
+            android:id="@+id/zhifuTime"
+            android:layout_width="@dimen/manbu_more_iconsize"
+            android:layout_height="@dimen/manbu_more_iconsize"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/ic_jump" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/manbu_Tool_DialysisRecordlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/manbu_Tool_ClinicalPathlayout"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/app_layout_click"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/gzhIcon"
+            android:layout_width="@dimen/manbu_more_iconsize"
+            android:layout_height="@dimen/manbu_more_iconsize"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/gzhTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/gzhIcon"
+            android:textColor="@color/manbuDefaultTextColor"
+            android:textSize="@dimen/manbu_more_textsize" />
+
+        <ImageView
+            android:id="@+id/gzhTime"
+            android:layout_width="@dimen/manbu_more_iconsize"
+            android:layout_height="@dimen/manbu_more_iconsize"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/ic_jump" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/manbu_Tool_Printlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/manbu_Tool_DialysisRecordlayout"
+        android:layout_marginTop="0.5dp"
+        android:background="@drawable/app_layout_click"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/manbunetIcon"
+            android:layout_width="@dimen/manbu_more_iconsize"
+            android:layout_height="@dimen/manbu_more_iconsize"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+             />
+
+        <TextView
+            android:id="@+id/manbunetTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/manbunetIcon"
+            android:textColor="@color/manbuDefaultTextColor"
+            android:textSize="@dimen/manbu_more_textsize" />
+
+        <ImageView
+            android:id="@+id/manbunetTime"
+            android:layout_width="@dimen/manbu_more_iconsize"
+            android:layout_height="@dimen/manbu_more_iconsize"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@mipmap/ic_jump" />
+    </RelativeLayout>
+</RelativeLayout>

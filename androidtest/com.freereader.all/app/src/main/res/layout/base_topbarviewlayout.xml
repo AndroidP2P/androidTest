@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTransparent">
+
+    <RelativeLayout
+        android:id="@+id/manBu_ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/manbuActionBarHeight"
+        android:background="@color/manbu_actionbarbgColor">
+
+        <ImageView
+            android:id="@+id/manbu_Back"
+            android:layout_width="@dimen/manbuActionBarHeight"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_back"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/manbu_TextTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/manbu_actionbar_title"
+            android:textColor="@color/White"
+            android:textSize="@dimen/manbu_actionbartitlesize" />
+
+        <Button
+            android:id="@+id/manbu_operateBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorTransparent"
+            android:text="@string/manbu_actionbar_operateBtnTittle"
+            android:textColor="#FFF"
+            android:textSize="14sp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/manbu_netstatelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manBu_ActionBar"
+        android:background="@color/manbu_netstateloseBgColor"
+        android:padding="@dimen/manbu_actionbarNetStateLayoutPadding"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/manbu_netStateTittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/manbu_netStateTittle"
+            android:textColor="@color/manbuDefaultTextColor"
+            android:textSize="@dimen/manbu_actionbarNetStateTextSize" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/manbu_LoadingBaseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/manbu_actionbarLoadingLayoutHeight"
+        android:layout_below="@+id/manbu_netstatelayout"
+        android:background="@color/colorTransparent"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/manbu_loadingLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ProgressBar
+                android:id="@+id/manbu_ProgressBar"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left|center_vertical" />
+
+            <Button
+                android:id="@+id/manbu_RefreshBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/manbu_ProgressBar"
+                android:background="@color/colorTransparent"
+                android:text="@string/manbu_clickRefresh"
+                android:textColor="@color/manbuDefaultTextColor"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

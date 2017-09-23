@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="use_drug_remind_open">打开</string>
+    <string name="use_drug_remind_close">关闭</string>
+    <dimen name="select_state_textsize">12sp</dimen>
+    <color name="slideview_open_color">#ff00ee00</color>
+</resources>

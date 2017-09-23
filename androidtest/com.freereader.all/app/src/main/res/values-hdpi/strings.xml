@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- search bar param -->
+    <string name="finding_expert">请输入专家姓名</string>
+
+</resources>
